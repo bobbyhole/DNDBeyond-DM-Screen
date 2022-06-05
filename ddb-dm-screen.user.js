@@ -24,7 +24,7 @@ const campaignElementTarget = '.ddb-campaigns-detail-header-secondary';
 const rulesUrls = ["https://character-service.dndbeyond.com/character/v4/rule-data", "https://gamedata-service.dndbeyond.com/vehicles/v3/rule-data"];
 const charJSONurlBase = "https://character-service.dndbeyond.com/character/v4/character/";
 
-const stylesheetUrls = ["https://raw.githack.com/TeaWithLucas/DNDBeyond-DM-Screen/master/dm-screen.css"]
+const stylesheetUrls = ["https://raw.githack.com/bobbyhole/DNDBeyond-DM-Screen/master/dm-screen.css"]
 
 const gameCollectionUrl = {prefix :"https://character-service.dndbeyond.com/character/v4/game-data/", postfix: "/collection"}
 const optionalRules = {
@@ -53,7 +53,7 @@ const showResourcesDefault = true;
 const currenciesDefault = {gold : 0};
 const currenciesTypeDefault = {
     platinum : { name: 'Platinum', conversion: 10 },
-    gold : { name: 'Gold', conversion: 1 },
+    gold : { name: 'Golds', conversion: 1 },
     electrum : { name: 'Electrum', conversion: 0.5 },
     silver : { name: 'Silver', conversion: 0.1 },
     copper : { name: 'Copper', conversion: 0.01 },
