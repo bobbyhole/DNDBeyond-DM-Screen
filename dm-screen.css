@@ -581,3 +581,18 @@ a.ddb-campaigns-detail-body-listing-campaign-link, a#content-management-link, .d
 .cls-j {
 	stroke-miterlimit:10;
 }
+
+.gs-speed {
+    text-align: center;
+}
+
+.gs-speed-value {
+    position: relative;
+    font-size: 26px;
+    font-weight: 500;
+}
+.gs-speed-affix {
+    font-size: 16px;
+    color: #838383;
+    /*! margin-left: 3px; */
+}
