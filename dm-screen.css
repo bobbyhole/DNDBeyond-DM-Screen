@@ -551,31 +551,6 @@ a.ddb-campaigns-detail-body-listing-campaign-link, a#content-management-link, .d
     font-weight: 500;
 }
 
-.gs-spellSlots, .gs-spellSlots-affix{
-	font-size: 12px;
-}
-.gs-spellSlots-affix{
-	vertical-align: unset;
-}
-
-.gs-spellSlots-number {
-	display: inline-block;
-	width: 22px;
-	font-size: 11px;
-	vertical-align: middle;
-	text-align: center;
-}
-
-.gs-spellSlots-label{
-	display: inline-block;
-	padding-left:2px;
-	padding-right:6px;
-	padding-bottom: 1px;
-	text-align: left;
-	vertical-align: middle;	
-
-}
-
 .cls-a {
 	fill:#464646;
 }
@@ -606,4 +581,3 @@ a.ddb-campaigns-detail-body-listing-campaign-link, a#content-management-link, .d
 .cls-j {
 	stroke-miterlimit:10;
 }
-
