@@ -445,6 +445,11 @@ a.ddb-campaigns-detail-body-listing-campaign-link, a#content-management-link, .d
 	/*! max-width: 250px; */
 }
 
+.gs-main-spellSlots {
+	/*! min-width: 200px; */
+	/*! max-width: 250px; */
+}
+
 .gs-main-able > .gs-container {
 	justify-content: space-between;
 }
@@ -462,12 +467,23 @@ a.ddb-campaigns-detail-body-listing-campaign-link, a#content-management-link, .d
 	align-items: baseline;
 }
 
+.gs-main-spellSlots > .gs-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+}
+
 .gs-able {
 	min-width: 120px;
 } 
 
 .gs-saves {
 	min-width: 55px;
+} 
+
+.gs-spellSlots {
+	min-width: 120px;
 } 
 
 .gs-header-able {
@@ -478,12 +494,16 @@ a.ddb-campaigns-detail-body-listing-campaign-link, a#content-management-link, .d
 	padding-left: 4px;
 }
 
+.gs-header-spellSlots {
+	padding-left: 4px;
+}
+
 .gs-able-number {
 	display: inline-block;
 	min-width: 30px;
 }
 
-.gs-able-label, .gs-saves-label{
+.gs-able-label, .gs-saves-label, .gs-spellSlots-label{
 	text-align: center;
 }
 
